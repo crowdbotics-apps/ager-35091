@@ -17,7 +17,7 @@ const Splash = ({ navigation }) => {
         style={styles.image}
         source={{
           uri:
-            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/resources/project/20577/3d82cb85-9133-48e4-bb4a-a1c8dd140bc4.png"
+            ""
         }}
       />
     </View>
@@ -27,7 +27,7 @@ const Splash = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFF"
+    backgroundColor: "#SEA"
   },
   image: { width: "100%", height: '100%' }
 })
